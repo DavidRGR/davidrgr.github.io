@@ -1,0 +1,18 @@
+p{
+    color: gray;
+    background-color: aquamarine;
+}
+#p2 {
+    font-size: 32px;
+    border: red 2px solid; 
+
+}
+p{
+    font-weight: bolder;
+    font-style: italic;
+
+}
+stp{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6px;
+}

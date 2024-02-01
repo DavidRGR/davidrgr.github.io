@@ -1,0 +1,13 @@
+h1, strong{
+    text-decoration: underline;
+}
+h1{
+    font-size: max(200px, 20vw);
+}
+h1 strong{ /* Para todos los descendientes */
+    font-size: 2em; /* 1em=16px*/
+    color: yellowgreen;
+}
+h1>span{ /*Al descendiente directo */
+    background-color: aqua;
+}

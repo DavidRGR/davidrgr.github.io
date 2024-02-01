@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *{
+            background-color: aquamarine;
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+        <label for="checkbox">Acepto terminos:</label><br>
+            <input type="checkbox" id="checkbox" name="checkbox" value=""><br>
+        <label for="color">Color preferido:</label><br>
+            <input type="color" id="color" name="color" value=""><br>
+        <label for="date">Fecha de nacimiento:</label><br>
+            <input type="date" id="date" name="date" value=""><br>
+        <label for="datename-local">Fecha y hora actual:</label><br>
+            <input type="datetime-local" id="datename-local" name="datename-local" value=""><br>
+        <label for="email">Ponga su email:</label><br>
+            <input type="email" id="email" name="email" value=""><br>
+        <label for="file">Suba su fichero:</label><br>
+            <input type="file" id="file" name="file"><br>
+        <label for="file">Hidden:</label><br>
+            <input type="hidden" id="hidden" name="hidden" value=""><br>
+        <label for="image">Suba su imagen:</label><br>
+            <input type="image" id="image" alt="imagen"><br>
+        <label for="month">Mes:</label><br>
+            <input type="month" id="month" name="month" value=""><br>
+        <label for="number">Numero:</label><br>
+            <input type="number" id="number" name="number" value=""><br>
+        <label for="password">Ponga su contraseña</label><br>
+            <input type="password" id="password" name="password" value=""><br>
+        <label for="radio">Selecciona un Color:</label><br>
+            <input type="radio" id="rojo" name="rojo" value="rojo">rojo
+            <input type="radio" id="verde" name="verde" value="verde">verde
+            <input type="radio" id="azul" name="azul" value="azul">azul<br>
+        <label for="range">Rango:</label><br>
+            <input type="range" id="range" name="range"><br>
+        <label for="reset">Reset</label><br>
+            <input type="reset" id="reset" name="reset" value=""><br>
+        <label for="search">Buscador</label><br>
+            <input type="search" id="search" name="reset" value=""><br>
+        <label for="tel">Tel</label><br>
+            <input type="tel" id="tel" name="tel" value=""><br>
+        <label for="time">Hora</label><br>
+            <input type="time" id="time" name="time" value=""><br>
+        <label for="url">URL</label><br>
+            <input type="url" id="url" name="url" value=""><br>
+        <label for="week">Semana</label><br>
+            <input type="week" id="week" name="week" value=""><br>
+        <label for="sumbit">Enviar</label><br><br>
+            <input type="submit" id="sumbit" name="sumbit"><br>
+        <label for="provincia">Selecciona tu provincia </label>
+        <select name="provincia" id="provincia">
+            <optgroup label="Extremadura">
+                <option value="Badajoz">Badajoz</option>
+                <option value="Caceres">Caceres</option>
+            </optgroup>
+            <optgroup label="Andalucia">
+                <option value="Malaga">Malaga</option>
+                <option value="Sevilla">Malaga</option>
+            </optgroup>
+    </select> <br>
+    <label for="myBrowser">Elige un navegador:</label>
+        <input list="browsers" id="myBrowser" name="myBrowser" />
+        <datalist id="browsers">
+            <option value="Chrome"></option>
+            <option value="Firefox"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+            <option value="Microsoft Edge"></option>
+        </datalist>
+        <fieldset>
+            <legend>Nombre y apellidos </legend>
+                <input name='nombre' type='text' tabindex='1'>
+                <input name='apellidos' type='text' tabindex='2'>
+        </fieldset>
+        <fieldset>
+            <legend>edad</legend>
+                <input type='checkbox' tabindex='20' name='edad' value='20-39' > 20-39
+                <input type='checkbox' tabindex='21' name='edad' value='40-59' > 40-59
+                <input type='checkbox' tabindex='22' name='edad' value='60-79' > 60-79
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1, strong{
+            text-decoration: underline;
+        }
+        h1{
+            font-size: max(200px, 20vw);
+        }
+        h1 strong{ /* Para todos los descendientes */
+            font-size: 2em; /* 1em=16px*/
+            color: yellowgreen;
+        }
+        h1>span{ /*Al descendiente directo */
+            background-color: aqua;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1> Esto <strong> es un h1 </strong> que solo hay uno </h1>
+    <strong> es un strong </strong>
+</body>
+</html>

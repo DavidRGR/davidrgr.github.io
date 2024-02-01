@@ -1,0 +1,62 @@
+*{
+    scroll-behavior: smooth;
+}
+#p2 {
+    font-style: italic;
+    background-color: aquamarine;
+}
+.p3{
+    font-style: oblique;
+    background-color: chocolate;
+}
+p{
+    color: blue;
+    background-color: brown;
+}
+.clase2{
+    font-family: 'Courier New', Courier, monospace;
+    color: chartreuse;
+}
+.c1{
+    font-style: 1600px;
+    color: blueviolet;
+}
+.yellow{
+    width: 10vw;
+    height: 5vh;
+    position: fixed;
+    background-color: yellow;
+    top: 0%;
+}
+.blue{
+    width: 10vw;
+    height: 5vh;
+    position: fixed;
+    background-color: blue;
+    bottom: 0%;
+}
+.red{
+    width: 10vw;
+    height: 5vh;
+    position: fixed;
+    background-color: red;
+    bottom: 0%;
+    right: 0%;
+}
+.circulo{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+.green{
+    width: 10vw;
+    height: 5vh;
+    position: fixed;
+    right: 0%;
+    background-color: green;
+    top: 0%;
+}

@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{ 
+    background-color: rgb(255, 127, 127);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+header{
+    text-align: center;
+    background-color:rgb(86, 58, 241);
+    border: 2px solid;
+    border-color: aliceblue;
+    }
+nav{
+    background-color: rgb(236, 38, 97);
+    border: 2px solid;
+    border-color: aliceblue;
+}
+.contenedor{
+    display: flex;
+}
+section{
+    background-color: rgb(77, 187, 169);
+    height: 75vh;
+    width: 60vw;
+    border: 2px solid;
+    border-color: aliceblue;
+}
+article{
+    margin:5px;
+    background-color: rgb(192, 174, 54);
+    height: 65vh;
+    font-size: 12px;
+    border: 2px solid;
+    border-color: lightskyblue;
+}
+aside{
+    background-color: rgb(13, 196, 59);
+    height: 75vh;
+    width: 100vw;   
+    font-size: 20px;
+    border: 2px solid;
+    border-color: aliceblue;
+}
+footer{
+    background-color: rgb(131, 38, 168);
+    height: 9vh;
+    font-size: 20px;
+    border: 2px solid;
+    border-color: aliceblue;
+}

@@ -1,0 +1,7 @@
+body{
+    font-size: 32px;
+}
+p{ font-size: 0.5rem }
+div p{ font-weight: bold;
+color: rgba(255,100,0,0.5)
+}
